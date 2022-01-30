@@ -1,0 +1,32 @@
+
+.login_form {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #888;
+    box-shadow: 0 0 5px #666;
+}
+#email, #password, #password_again{
+    width: 100%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.login_button {
+    width: 100%;
+    background: rgb(42, 187, 110);
+    border: 1px solid #888;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.login_button:hover {
+    opacity: 0.7;
+}
+.login_button:active {
+    opacity: 1;
+}
